@@ -5,15 +5,16 @@ class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      value: 0
-    }
+      value: 0,
+    };
   }
 
   render() {
+    const { value } = this.state;
     return (
       <>
         <div className="container">
-          <input type="text" className="display" id="display" value={this.state.value} />
+          <input type="text" className="display" id="display" value={value} />
           <div className="keypads">
             <button type="button" className="left-btns" id="clear">
               AC
