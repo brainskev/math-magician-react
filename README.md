@@ -27,7 +27,7 @@ After you're finished please remove all the comments and instructions!
 
 <div align="center">
   <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
+  
   <br/>
 
   <h3><b>Microverse README Template</b></h3>
@@ -70,8 +70,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> Describe the tech stack and include only the relevant sections that apply to your project.
-
 <details>
   <summary>Client</summary>
   <ul>
@@ -82,8 +80,6 @@ After you're finished please remove all the comments and instructions!
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> Describe between 1-3 key features of the application.
 
 - **[Scientific calculator]**
 - **[Home Page]**
@@ -139,8 +135,6 @@ Have NodeJS installed and follow the next steps
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
 
 - [ ] **[more styling will be added]**
 
