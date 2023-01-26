@@ -56,7 +56,7 @@
   margin-left: 24px;
   text-align: center;
   margin-top: 10%;
-  color: rgba(228, 125, 29, 0.836);
+  color: rgba(10, 10, 10, 0.836);
 }
 
 .intro {
@@ -164,11 +164,11 @@ button {
 }
 
 .left-btns {
-  background: #c7c6c6;
+  background: #fffefe;
 }
 
 .right-btns {
-  background: rgba(228, 125, 29, 0.836);
+  background: #f8943c;
 }
 
 /* Quote Page */
@@ -179,7 +179,7 @@ button {
   text-align: center;
   margin-top: 15%;
   font-family: 'Roboto', sans-serif;
-  color: rgba(228, 125, 29, 0.836);
+  color: rgba(11, 10, 10, 0.836);
 }
 
 .quote p {
