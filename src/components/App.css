@@ -112,9 +112,9 @@
 .calc-title {
   font-family: 'Roboto', sans-serif;
   font-size: 25px;
-  color: rgba(228, 125, 29, 0.836);
+  color: #808080;
   padding-left: 0;
-  transform: translate(-100%, -600%);
+  transform: translate(-150%, -60%);
 }
 
 .container {
