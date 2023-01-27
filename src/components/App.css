@@ -2,25 +2,124 @@
 
 * {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-body {
+/* header */
+.nav-header {
   display: flex;
-  justify-content: center;
+  width: 100%;
+  position: fixed;
+  padding: 20px 20px;
+  top: 0;
+  color: #808080;
+  gap: 60%;
+  margin-left: 10px;
+}
+
+.nav-header h1 {
+  color: #808080;
+  font-size: 30px;
+  font-weight: 700;
+  margin-left: 20px;
+}
+
+.nav-bar {
+  display: flex;
   align-items: center;
+  gap: 20px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #808080;
+  font-size: 25px;
+  margin-right: 5%;
+}
+
+.nav-link:hover {
+  color: #c7c6c6;
+  cursor: pointer;
+}
+
+.nav-link:focus {
+  color: rgba(228, 125, 29, 0.836);
+  text-decoration: underline;
+}
+
+/* Homepage */
+.home {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  margin-top: 10%;
+  color: rgba(10, 10, 10, 0.836);
+}
+
+.intro {
+  font-weight: bolder;
+  font-size: 50px;
+  padding: 70px 24px;
+  align-items: center;
+  justify-content: center;
+}
+
+.description {
+  font-size: 20px;
+}
+
+.link {
+  color: #808080;
+  text-decoration: none;
+  margin-left: 5px;
+}
+
+/* Footer */
+.footer {
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  color: #808080;
+}
+
+.copyright {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.copyright h4 {
+  font-size: 25px;
+}
+
+.copyright p {
+  font-size: 20px;
+}
+
+.calc-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 35px;
+  color: #808080;
+  padding-left: 0;
+  transform: translate(-150%, -60%);
+  margin-left: -250px;
 }
 
 .container {
   top: 50%;
-  left: 50%;
+  padding-right: 0;
   position: absolute;
-  transform: translate(-50%, -50%);
+  transform: translate(85%, -50%);
   margin: 0 auto;
   text-align: center;
   background: #808080;
-  border: 1px solid #808080;
+  border: 10px solid #808080;
   border-radius: 5px;
-  width: 256px;
+  width: 300px;
 }
 
 .keypads {
@@ -53,7 +152,7 @@ button {
   margin: 1px;
   cursor: pointer;
   border: none;
-  border-radius: 1px;
+  border-radius: 5px;
 }
 
 .left-btns {
@@ -62,4 +161,26 @@ button {
 
 .right-btns {
   background: #f8943c;
+}
+
+/* Quote Page */
+.quote {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 15%;
+  font-family: 'Roboto', sans-serif;
+  color: rgba(11, 10, 10, 0.836);
+}
+
+.quote p {
+  font-size: 30px;
+  padding: 12px;
+}
+
+.name {
+  font-size: 20px;
+  font-style: italic;
+  padding: 12px;
 }
