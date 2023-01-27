@@ -9,25 +9,27 @@
 /* header */
 .nav-header {
   display: flex;
-  width: 100vh;
+  width: 100%;
   position: fixed;
   padding: 20px 20px;
   top: 0;
   color: #808080;
-  gap: 20%;
+  gap: 60%;
+  margin-left: 10px;
 }
 
 .nav-header h1 {
   color: #808080;
   font-size: 30px;
   font-weight: 700;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .nav-bar {
   display: flex;
   align-items: center;
   gap: 20px;
+  margin-right: 20px;
 }
 
 .nav-link {
@@ -53,8 +55,7 @@
   flex-direction: column;
   width: 100%;
   font-family: 'Roboto', sans-serif;
-  margin-left: 24px;
-  text-align: center;
+
   margin-top: 10%;
   color: rgba(10, 10, 10, 0.836);
 }
@@ -100,21 +101,13 @@
   font-size: 20px;
 }
 
-/* Calculator */
-.calculator-page {
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: center;
-  gap: 20%;
-}
-
 .calc-title {
   font-family: 'Roboto', sans-serif;
-  font-size: 25px;
+  font-size: 35px;
   color: #808080;
   padding-left: 0;
   transform: translate(-150%, -60%);
+  margin-left: -250px;
 }
 
 .container {
@@ -127,7 +120,7 @@
   background: #808080;
   border: 10px solid #808080;
   border-radius: 5px;
-  width: 256px;
+  width: 300px;
 }
 
 .keypads {
